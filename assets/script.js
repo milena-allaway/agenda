@@ -37,7 +37,7 @@ $(document).ready(function() {
    var timeblock = parseInt($(this).attr("id").split("-")[1]);
    if (timeblock < hour ) {
     $(this).addClass('past');
-   } else if (timeblock === hour) {
+   } else if (timeblock == hour) {
     $(this).addClass('present')
    } else {
     $(this).addClass('future')
