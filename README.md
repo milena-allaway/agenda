@@ -20,7 +20,7 @@ My tutor, Katie Redford, guided me through looping through elements and isolatin
 https://www.w3schools.com/jsref/jsref_split.asp
 https://www.tutorialrepublic.com/faq/how-to-get-the-id-of-an-element-using-jquery.php#:~:text=Answer%3A%20Use%20the%20jQuery%20attr,alert%20box%20on%20button%20click.
 
-The following online resources were used to assist with selecting the classes of elements and putting thier input values into an array:
+The following online resources were used to assist with selecting the classes of elements and putting their input values into an array:
 // https://www.w3schools.com/jquery/jquery_selectors.asp
   // https://stackoverflow.com/questions/24738735/
 
