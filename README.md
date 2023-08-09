@@ -8,7 +8,8 @@ This project was a fun one, and I learned a lot about the dayjs library. Once ag
 N/A no installation required
 
 ## Usage
-When you visit (insert url here) you will see a page that looks likes this:
+When you visit https://milena-allaway.github.io/agenda/ you will see a page that looks likes this:
+![milena-allaway github io_agenda_](https://github.com/milena-allaway/agenda/assets/132115087/f8ac6c56-1926-49e5-9f7f-94b98e726afe)
 
 
 You then can input events into the text area within your prefered time block and click the save button to save them.
