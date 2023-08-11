@@ -59,6 +59,6 @@ $(document).ready(function() {
   //display current date and time
   var today = dayjs();
   $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm:ss a'));
-  $(body).css("text-align", "center");
+  $('body').css("text-align", "center");
 
 });
