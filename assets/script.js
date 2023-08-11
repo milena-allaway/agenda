@@ -9,6 +9,11 @@ $(document).ready(function() {
     console.log(time.format('h:mm a'));
     hour = time.format('H');
     console.log("hour is: " + hour);
+  
+   //display current date and time
+   var today = dayjs();
+   $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm:ss a'));
+   $(body).css("text-align", "center");  
 
   saveBtn.css("background-color", "hotpink");
   description.css("font-family", "monospace", "font-weight", "bold");
@@ -56,9 +61,5 @@ $(document).ready(function() {
     console.log("this is: " + this);
   });
   
-  //display current date and time
-  var today = dayjs();
-  $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm:ss a'));
-  $(body).css("text-align", "center");
 
 });
