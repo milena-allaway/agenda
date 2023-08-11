@@ -1,6 +1,6 @@
 //All console.logs are used for testing purposes
 
-window.onload = (function() {
+$(document).ready(function() {
   var body = $('body');
   var saveBtn = $('.btn');
   var description = $('.description'); //'To Dos'
