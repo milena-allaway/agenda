@@ -1,6 +1,6 @@
 //All console.logs are used for testing purposes
-//https://www.w3schools.com/jquery/event_ready.asp
-$(document).ready(function() {
+
+window.onload = (function() {
   var body = $('body');
   var saveBtn = $('.btn');
   var description = $('.description'); //'To Dos'
