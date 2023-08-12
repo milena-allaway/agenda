@@ -1,9 +1,8 @@
-//All console.logs are used for testing purposes
-
 $(document).ready(function() {
   var body = $('body');
   var saveBtn = $('.btn');
   var description = $('.description'); //'To Dos'
+  
   //get just the hour of current time in 24 hour format
   var time = dayjs();
     console.log(time.format('h:mm a'));
@@ -15,6 +14,7 @@ $(document).ready(function() {
    $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm:ss a'));
    body.css("text-align", "center");  
 
+  //added some css style to save button and text area
   saveBtn.css("background-color", "hotpink");
   description.css({"font-family": "monospace", "font-weight": "bold"});
 
@@ -25,6 +25,7 @@ $(document).ready(function() {
   $(".time-block").each(function () {
     console.log("timeblock: ", $(this).attr("id").split("-")[1]);
     var timeblock = parseInt($(this).attr("id").split("-")[1]);
+    //color code time blocks based on time
     if (timeblock < hour ) {
      $(this).addClass('past');
     } else if (timeblock === hour) {
@@ -33,7 +34,7 @@ $(document).ready(function() {
      $(this).addClass('future');
     };
     
-   });
+  });
 
   // https://www.w3schools.com/jquery/jquery_selectors.asp
   // https://stackoverflow.com/questions/24738735/
@@ -61,5 +62,4 @@ $(document).ready(function() {
     $(this).text(getToDo[i]);
   });
   
-
 });
