@@ -11,7 +11,7 @@ $(document).ready(function() {
   
    //display current date and time
    var today = dayjs();
-   $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm:ss a'));
+   $('#currentDay').text(today.format('dddd, MMMM D YYYY, h:mm a')).css("font-weight", "bold");
    body.css("text-align", "center");  
 
   //added some css style to save button and text area
